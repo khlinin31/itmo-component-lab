@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const studentId = '336095';
-const targetDirectory = process.argv[2] || '.';
+const targetDirectory = process.argv[2] || '/data';
 
 function analyzeDirectory(directory) {
     let files = 0;
